@@ -1,0 +1,3 @@
+*.kt linguist-vendored
+*.swift linguist-vendored
+*.h linguist-vendored
