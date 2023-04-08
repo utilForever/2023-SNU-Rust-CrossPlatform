@@ -4,7 +4,7 @@
 
 ## Contents
 
-- Presentation
+- [Presentation](./1%20-%20Presentation/SNUCSE%20Speical%20Lecture%20-%20Rust%20Cross%20Platform%20Programming.pdf)
 - Example
 
 ## Prerequisite
