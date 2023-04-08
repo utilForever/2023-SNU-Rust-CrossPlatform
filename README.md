@@ -85,6 +85,20 @@ npm run start
 
 3. Go to `http://localhost:8080/`
 
+### Generating Foreign-Language Bindings with UniFFI
+
+#### Kotlin
+
+```sh
+cargo run --bin uniffi-bindgen generate src/calc.udl --language kotlin
+```
+
+#### Swift
+
+```sh
+cargo run --bin uniffi-bindgen generate src/calc.udl --language swift
+```
+
 ## References
 
 - Rust Core
