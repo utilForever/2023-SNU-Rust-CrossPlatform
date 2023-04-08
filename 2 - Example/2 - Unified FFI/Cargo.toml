@@ -1,0 +1,19 @@
+[package]
+name = "calc"
+version = "0.1.0"
+authors = [ "Chris Ohk <utilforever@gmail.com>" ]
+edition = "2021"
+description = "A simple Rust cross-platform library example using UniFFI"
+
+readme = "README.md"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+uniffi = "0.23.0"
+uniffi_macros = "0.23.0"
+
+[build-dependencies]
+uniffi_build = {version = "0.23.0", features = [ "builtin-bindgen" ]}

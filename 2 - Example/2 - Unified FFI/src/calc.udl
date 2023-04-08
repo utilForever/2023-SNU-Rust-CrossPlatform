@@ -1,0 +1,6 @@
+namespace calc {
+    i64 add(i64 a, i64 b);
+    i64 sub(i64 a, i64 b);
+    i64 mul(i64 a, i64 b);
+    i64 div(i64 a, i64 b);
+};
