@@ -9,7 +9,7 @@ readme = "README.md"
 license = "MIT"
 
 [lib]
-crate-type = ["cdylib"]
+crate-type = ["staticlib", "cdylib"]
 
 [dependencies]
 uniffi = "0.23.0"
